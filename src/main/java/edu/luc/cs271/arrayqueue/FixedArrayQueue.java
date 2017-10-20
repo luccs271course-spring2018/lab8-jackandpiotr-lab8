@@ -29,19 +29,24 @@ public class FixedArrayQueue<E> implements SimpleQueue<E> {
 
   @Override
   public boolean offer(final E obj) {
-    // TODO
-    return false;
+    if(this.size<capacity) {
+        this.data[size] = obj;
+        size++;
+      return true;
+    }
+    else {
+      return false;
+    }
   }
 
   @Override
   public E peek() {
-    // TODO
-    return null;
+    return this.data[front];
   }
 
   @Override
   public E poll() {
-    // TODO
+
     return null;
   }
 
