@@ -9,4 +9,4 @@ When you poll and empty queue it returns null.
 
 What is the time and (extra) space complexity of each of the FixedArrayQueue methods?
 Offer: O(1) space O(1), peek: O(1) space O(1), poll: O(n) space O(n) isEmpty: O(1) space O(1)
-size: O(1) space O(1), asList O(n) space O(n).
+size: O(1) space O(1), asList O(n) space O(n)
