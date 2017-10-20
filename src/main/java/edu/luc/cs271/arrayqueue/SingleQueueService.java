@@ -8,7 +8,7 @@ public class SingleQueueService {
   static final int SERVICE_TIME = 2000;
 
   public static void main(final String[] args) throws InterruptedException {
-    // TODO read successive input lines until EOF and try to add them to the queue
+    // done read successive input lines until EOF and try to add them to the queue
 
     // queue for customer names
     final SimpleQueue<String> queue = new FixedArrayQueue<>(5);
